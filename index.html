@@ -14,20 +14,19 @@
     <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
     <style>
-        @media (max-width: 981px) {
-		.hub_copy::after {
-			content: "";
-			border-bottom: 3px solid black;
-			position: absolute;
-			width: 72px;
-			margin-top: 0px !important;
-			left: 132px !important;
-		}
-		.hub_text {
-			 left: 114px;
-			 bottom: 10px;
-		}
-		}
+        
+        .footer {
+            display: flex;
+            color: black;
+            width: 100%;
+            height: 0px;
+            background-color: whitesmoke;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            position: relative;
+            bottom: 42px;
+            left: 0;
+        }
         @media (min-width: 1441px) {
             .menu__bar {
                 width: 70%;
@@ -44,13 +43,12 @@
 			margin-top: 10px;
 			left: 146px;
 		}
-				}
     </style>
 </head>
 
 <body>
     <div class="top__bar">
-        <ul class="menu__bar" style="position: absolute" id="myLinks">
+        <ul class="menu__bar main__menu" style="position: absolute">
             <a href="">
                 <li class="menu__item">
                     <a href="index.html">
@@ -104,7 +102,7 @@
     </div>
     <div class="third_box">
         <div class="third_box_copy">
-                    <h2>Testimonios</h2>
+                    <h2><a href="testimonios.html">Testimonios</a></h2>
 
             <p class="item-1">"Puedo decir que gracias a la terapia con Marina ahora soy una persona más feliz, segura de sí misma..."
                 <br><br>- Beatriz Cortés</p>
@@ -133,7 +131,7 @@
     <div class="footer">
         <p class="footer_copy">
             <img class="icon" alt="English" src="images/english.png">&nbsp;|
-            <img class="icon" alt="French" src="images/french.png">&nbsp;| Lorem ipsum | Lorem ipsum</p>
+            <img class="icon" alt="French" src="images/french.png">&nbsp;</p>
     </div>
 </body>
 
