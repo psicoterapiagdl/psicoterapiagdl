@@ -725,6 +725,13 @@ i {
   margin-left: 40px;
   width: 55%;
 }
+.contact_item_title {
+     text-align: left;
+     font-size: 30px;
+     font-weight: bold;
+     margin-bottom: 10px;
+     margin-left: 80px;
+}
 
 /* styles.css | https://tzui20.github.io/psicoterapiagdl/styles.css */
 
@@ -734,9 +741,18 @@ i {
   margin-top: 25px;
 }
 
+
+/* styles.css | https://www.psicoterapiagdl.com/styles.css */
+
 .hub_copy_other::after {
-	width: 280px;
+  content: "";
+  border-bottom: 3px solid black;
+  width: 50%;
+  left: 0;
+  margin-left: 26%;
+  margin-right: auto;
 }
+
 
 /* styles.css | https://tzui20.github.io/psicoterapiagdl/styles.css */
 
@@ -798,5 +814,22 @@ i {
   /* height: 290px; */
   height: 170px !important;
 }
-
+.hub_copy::after {
+			content: "";
+			border-bottom: 3px solid black;
+			width: 50%;
+			/*! margin-top: 10px; */
+			left: 0;
+			margin-left: 26%;
+			margin-right: auto;
+		}
+		.blog_post {
+    margin: 0;
+    padding: 3rem;
+    height: auto;
+    background-color: rgb(207, 224, 247,0.3);
+    color: black;
+	border-radius: 30px;
+    margin-bottom: 20px;
+}
 }
