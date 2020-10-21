@@ -629,10 +629,7 @@ i {
     padding: 3rem;
     color: black;
 }
-.third_box {
-  /* background-size: cover; */
-  /* -moz-background-size: cover; */
-}
+
 .post_title {
     padding-bottom: 20px;
     width: 100%;
@@ -663,10 +660,6 @@ i {
   height: 350px;
 }
 
-.contact_item_title {
-  /* margin-left: 80px; */
-  margin-left: 11%;
-}
 
 .contact_item {
   /* margin-left: 80px; */
@@ -682,13 +675,9 @@ i {
      left: 0%;
 }
 
-/* Inline #2 | https://tzui20.github.io/psicoterapiagdl/index.html */
-
-@media (max-width: 981px) {
   .menu__bar {
     /* margin-top: 190px; */
     margin-top: 0;
-  }
 }
 
 .right {
@@ -741,7 +730,7 @@ i {
      font-size: 30px;
      font-weight: bold;
      margin-bottom: 10px;
-     margin-left: 80px;
+     margin-left: 40px;
 }
 
 /* styles.css | https://tzui20.github.io/psicoterapiagdl/styles.css */
@@ -826,15 +815,14 @@ i {
   height: 170px !important;
 }
 .hub_copy::after {
-			content: "";
-			border-bottom: 3px solid black;
-			width: 50%;
-			/*! margin-top: 10px; */
+	content: "";
+	border-bottom: 3px solid black;
+	position: absolute;
+	width: 48%;
+	margin-top: 10px;
 			left: 0;
-			margin-left: 26%;
-			margin-right: auto;
-		}
-		.blog_post {
+}
+.blog_post {
     margin: 0;
     padding: 3rem;
     height: auto;
