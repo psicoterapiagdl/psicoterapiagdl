@@ -103,6 +103,7 @@ h1, h2 {
      position: absolute;
      width: 72px;
      margin-top: 10px;
+	 margin-left: 114px;
 }
  .hub_copy > img:nth-child(1) {
      position: absolute;
