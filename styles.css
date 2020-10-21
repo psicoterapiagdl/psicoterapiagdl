@@ -743,7 +743,7 @@ i {
 /* styles.css | https://tzui20.github.io/psicoterapiagdl/styles.css */
 
 .about_container {
-  /* margin: 1rem; */
+	 padding: 0;
   margin: 0;
   width: 100%;
 }
@@ -760,5 +760,4 @@ i {
   /* width: 250px; */
   width: 200px;
 }
-
 }
