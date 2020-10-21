@@ -633,7 +633,10 @@ i {
   /* background-size: cover; */
   /* -moz-background-size: cover; */
 }
-
+.post_title {
+    padding-bottom: 20px;
+    width: 100%;
+}
 .third_box_copy {
   /* width: 50%; */
   width: 100%;
