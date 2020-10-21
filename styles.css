@@ -735,9 +735,7 @@ i {
 }
 
 .hub_copy_other::after {
-  /* width: 72px; */
-  width: 90%;
-  text-align: ;
+	width: 280px;
 }
 
 /* styles.css | https://tzui20.github.io/psicoterapiagdl/styles.css */
@@ -798,7 +796,7 @@ i {
 
 .post_image > img:nth-child(1) {
   /* height: 290px; */
-  height: 170px;
+  height: 170px !important;
 }
 
 }
