@@ -621,7 +621,14 @@ i {
   /* height: 234px; */
   height: auto;
 }
-
+.second_box_copy {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+    padding: 3rem;
+    color: black;
+}
 .third_box {
   /* background-size: cover; */
   /* -moz-background-size: cover; */
