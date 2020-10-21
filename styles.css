@@ -760,4 +760,45 @@ i {
   /* width: 250px; */
   width: 200px;
 }
+
+/* styles.css | https://www.psicoterapiagdl.com/styles.css */
+
+.lbl-toggle {
+  /* font-size: 1.8rem; */
+  font-size: 1.2rem;
+}
+
+.collapsible-content .content-inner {
+  /* font-size: 20px; */
+  font-size: 18px;
+}
+
+.service_container {
+  /* width: 75%; */
+  /* padding-top: 3rem; */
+  width: auto;
+  padding-top: 1rem;
+}
+
+/* styles.css | https://www.psicoterapiagdl.com/styles.css */
+
+.blog_post {
+  /* padding: 3rem; */
+  padding: 2rem;
+}
+
+.blog_container {
+  /* width: 80%; */
+  /* padding-top: 2rem; */
+  width: auto;
+  padding-top: 0;
+}
+
+/* Element | https://www.psicoterapiagdl.com/blog */
+
+.post_image > img:nth-child(1) {
+  /* height: 290px; */
+  height: 170px;
+}
+
 }
